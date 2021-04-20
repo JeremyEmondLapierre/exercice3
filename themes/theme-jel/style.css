@@ -1284,6 +1284,15 @@ svg {
   margin-right: 30px;
 }
 
+.test {
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
+
 /* ------------------------------------------------------------------------- 
 ANIMATIONS DANS LA PAGE
 ------------------------------------------------------------------------- */
@@ -1586,5 +1595,96 @@ STYLES QUI SONT APPLIQUÉS AU SLIDER AVEC LES COURS
   .ctrl-carroussel .rad-carrousel:nth-of-type(6) {
     display: none;
   }
+}
+
+/* Galerie
+--------------------------------------------- */
+main {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+h1.page-title {
+  width: 98vw;
+}
+
+.galerie {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+  /* This container is needed to position the front and back side */
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  /* Position the front and back side */
+  /* Style the front side (fallback if image is missing) */
+  /* Style the back side */
+}
+
+.galerie div {
+  margin: 1%;
+}
+
+.galerie .flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  perspective: 1000px;
+  /* Remove this if you don't want the 3D effect */
+  margin: 10px;
+  margin-bottom: 40px;
+}
+
+.galerie .flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.galerie .flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.galerie .flip-card-front, .galerie .flip-card-back {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  /* Safari */
+  backface-visibility: hidden;
+}
+
+.galerie .flip-card-front {
+  color: black;
+  display: flex;
+  background-color: grey;
+  justify-content: center;
+  align-items: center;
+}
+
+.galerie .flip-card-front img {
+  height: 200px;
+  width: 300px;
+}
+
+.galerie .flip-card-back {
+  background-color: #625b50;
+  color: white;
+  height: 200px;
+  transform: rotateY(180deg);
+  text-decoration: none;
+}
+
+.galerie .flip-card-back h1 a {
+  color: white;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.galerie .flip-card-back a {
+  color: wheat;
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
