@@ -1,4 +1,4 @@
-Labo-7
+Exercice 3
 =============
 @Jérémy Emond-Lapierre
 Groupe 2
