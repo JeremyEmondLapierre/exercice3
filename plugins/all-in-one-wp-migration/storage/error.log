@@ -1,0 +1,6 @@
+Apr 20 2021 23:07:40
+{"Number":2,"Message":"rmdir(C:\\xampp\\htdocs\\4w4\\wp-content\\plugins\\all-in-one-wp-migration\\storage\\aoeym3ir5yd0): Directory not empty","File":"C:\\xampp\\htdocs\\4w4\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filesystem\\class-ai1wm-directory.php","Line":72}
+
+Apr 20 2021 23:07:48
+{"Number":2,"Message":"filesize(): stat failed for C:\\xampp\\htdocs\\4w4\\wp-content\\plugins\\all-in-one-wp-migration\\storage\\aoeym3ir5yd0\\localhost-4w4-20210420-230732-tt6rmp.wpress","File":"C:\\xampp\\htdocs\\4w4\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\archiver\\class-ai1wm-archiver.php","Line":231}
+
