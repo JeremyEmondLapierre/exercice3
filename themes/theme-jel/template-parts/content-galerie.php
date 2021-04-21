@@ -12,7 +12,7 @@
 <article class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
-	<?php the_post_thumbnail( 'medium' );?>
+	<?php the_post_thumbnail( 'thumbnail' );?>
   </div>
   <div class="flip-card-back">
       <h1><a href="<?php echo get_permalink() ?>"> <?php the_title(); ?></h1>
